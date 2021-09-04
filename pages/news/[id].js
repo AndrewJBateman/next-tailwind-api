@@ -52,7 +52,6 @@ export const News = ({ articles, pageNumber }) => {
 		</>
 	) : (
 		<div className="page-container">
-			<Toolbar />
 			<div className={styles.main}>
 				<h1>No articles</h1>
 			</div>
