@@ -1,0 +1,14 @@
+Example news API article
+
+{
+  source: { id: 'le-monde', name: 'Le Monde' },
+  author: 'Le Monde avec AFP',
+  title: 'Cuba va devenir le premier pays à vacciner les moins de 12 ans contre le Covid-19 - Le Monde',
+  description: 'Les 2-11 ans seront vaccinés à partir du 15 septembre, tandis que la vaccination a commencé vendredi pour les 12-18 ans. Le gouvernement, communiste, en fait un préalable à la réouverture des écoles.',
+  url: 'https://www.lemonde.fr/planete/article/2021/09/04/cuba-va-devenir-le-premier-pays-a-vacciner-les-moins-de-12-ans-contre-le-covid-19_6093362_3244.html',
+  urlToImage: 'https://img.lemde.fr/2021/09/04/853/0/8640/4320/1440/720/60/0/068f127_192926143-027443.jpg',
+  publishedAt: '2021-09-04T09:08:41Z',
+  content: 'Une infirmière prend la tension dune fillette ayant reçu une dose du vaccin Soberana 2 à La Havane, le 24 août 2021.
+RAMON ESPINOSA / AP\r\n' +
+    'Cest une première mondiale. Cuba a lancé, vendredi 3 septembr… [+3076 chars]'
+}

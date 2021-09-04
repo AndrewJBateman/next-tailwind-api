@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export const Home = () => {
+export const About = () => {
   return (
     <div className="p-10">
 			<Head>
@@ -8,12 +8,10 @@ export const Home = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
       <div>
-        <h1>Next.js News App</h1>
-
-        <h3>News articles</h3>
+        <h1>About</h1>
       </div>
     </div>
   );
 }
 
-export default Home;
+export default About;
