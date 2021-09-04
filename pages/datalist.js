@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
 
-export const DataList = ({ dataBlock }) => {
-	console.log('dataBlock: ', dataBlock);
+const DataList = ({ dataBlock }) => {
 	return (
 		<div className="p-10">
 			<Head>
@@ -46,4 +45,4 @@ export const getServerSideProps = async (pageContext) => {
 	};
 };
 
-export default DataList;
+export default DataList

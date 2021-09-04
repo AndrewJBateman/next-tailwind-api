@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className="p-10">
 			<Head>

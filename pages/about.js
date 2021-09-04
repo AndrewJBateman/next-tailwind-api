@@ -1,11 +1,10 @@
 import Head from 'next/head'
 
-export const About = () => {
+const About = () => {
   return (
     <div className="p-10">
 			<Head>
 				<title>Data List</title>
-				<link rel="icon" href="/favicon.ico" />
 			</Head>
       <div>
         <h1>About</h1>
@@ -14,4 +13,4 @@ export const About = () => {
   );
 }
 
-export default About;
+export default About

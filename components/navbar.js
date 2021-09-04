@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Nav() {
+const Navbar = () => {
 	const links = [
 		{ href: '/', label: 'home' },
 		{ href: '/news/1', label: 'news' },
@@ -26,3 +26,5 @@ export default function Nav() {
 		</nav>
 	);
 }
+
+export default Navbar

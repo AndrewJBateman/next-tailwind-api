@@ -1,4 +1,4 @@
-export const NewsCard = ({article}) => {
+export const NewsCard = ({ article }) => {
 	return (
 		<div className="">
 			<h1
@@ -10,7 +10,7 @@ export const NewsCard = ({article}) => {
 			<p className="text-gray-700 text-base">{article.description}</p>
 			{!!article.urlToImage && (
 				// <Image src={article.urlToImage} alt="news article" />
-				<img src={article.urlToImage} alt="news article"/>
+				<img src={article.urlToImage} alt="news article" />
 			)}
 		</div>
 	);
