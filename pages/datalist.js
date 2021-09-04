@@ -6,7 +6,17 @@ const DataList = ({ dataBlock }) => {
 		<div className="p-10">
 			<Head>
 				<title>Data List</title>
-				<link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content={`The title of this DataBlock is ${dataBlock.title}`}
+        />
+
+        <meta property="og:image" content={dataBlock.image} />
+        <meta property="og:title" content="data from database" />
+        <meta
+          property="og:description"
+          content={`The title of this DataBlock is ${dataBlock.title}`}
+        />
 			</Head>
 			<div className="max-w-sm rounded overflow-hidden shadow-lg">
 				{/* image */}

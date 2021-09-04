@@ -3,7 +3,6 @@ module.exports = {
 	images: {
 		domains: [
 			'images.unsplash.com',
-			'pbs.twimg.com',
 			'newsapi.org',
 			'static.foxnews.com',
 		],
