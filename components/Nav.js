@@ -18,7 +18,7 @@ const Navbar = () => {
 						className="list-none pointer-events-auto p-0 m-0"
 					>
 						<Link href={href}>
-							<a className="underline">{label.toLowerCase()}</a>
+							<a className="text-blue-800">{label}</a>
 						</Link>
 					</li>
 				))}

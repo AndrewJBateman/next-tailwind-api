@@ -10,7 +10,7 @@ const Home = () => {
       <div>
         <h1>Next.js News App</h1>
 
-        <h3>News articles</h3>
+        <h3>News Articles</h3>
       </div>
     </div>
   );
