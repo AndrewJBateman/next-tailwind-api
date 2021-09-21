@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://next-tailwind-api.vercel.app/sitemap.xml
