@@ -15,9 +15,9 @@ const Navbar = () => {
 				{links.map(({ href, label }) => (
 					<li
 						key={`${href}${label}`}
-						className="list-none pointer-events-auto p-0 m-0"
+						className="p-0 m-0 list-none pointer-events-auto"
 					>
-						<Link href={href}>
+						<Link href={href} aria={label}>
 							<a className="text-blue-800">{label}</a>
 						</Link>
 					</li>

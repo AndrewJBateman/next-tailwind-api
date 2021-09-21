@@ -7,7 +7,7 @@ import { NewsCard } from '../../components/NewsCard';
 
 export const News = ({ articles, pageNumber }) => {
 	const router = useRouter();
-	console.log('articles1: ', articles[0]);
+	// console.log('articles1: ', articles[0]);
 	return articles.length ? (
 		<>
 			<Head>
