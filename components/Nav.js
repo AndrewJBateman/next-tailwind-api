@@ -6,7 +6,6 @@ const Navbar = () => {
 		{ href: '/news/1', label: 'news' },
 		{ href: '/datalist', label: 'data' },
 		{ href: '/about', label: 'about' },
-		{ href: 'https://github.com/AndrewJBateman', label: 'Github' },
 	];
 
 	return (

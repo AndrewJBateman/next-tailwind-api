@@ -5,34 +5,24 @@ const DataList = ({ dataBlock }) => {
 	return (
 		<div className="p-10">
 			<Head>
-				<title>Data List</title>
-        <meta
-          name="description"
-          content={`The title of this DataBlock is ${dataBlock.title}`}
-        />
-
-        <meta property="og:image" content={dataBlock.image} />
-        <meta property="og:title" content="data from database" />
-        <meta
-          property="og:description"
-          content={`The title of this DataBlock is ${dataBlock.title}`}
-        />
+				<title>API Data List</title>
+        <meta property="og:title" content="data from database" key="title"/>
 			</Head>
-			<div className="max-w-sm rounded overflow-hidden shadow-lg">
+			<div className="max-w-sm overflow-hidden rounded shadow-lg">
 				{/* image */}
 				<Image width="400px" height="400px" src={dataBlock.image} alt="data" />
 				<div className="px-6 py-4">
-					<div className="font-bold text-xl mb-2">{dataBlock.title}</div>
-					<p className="text-gray-700 text-base">{dataBlock.description}</p>
+					<div className="mb-2 text-xl font-bold">{dataBlock.title}</div>
+					<p className="text-base text-gray-700">{dataBlock.description}</p>
 				</div>
 				<div className="px-6 pt-4 pb-2">
-					<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+					<span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
 						{dataBlock.subtitle}
 					</span>
-					<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+					<span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
 						#travel
 					</span>
-					<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+					<span className="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
 						#winter
 					</span>
 				</div>
