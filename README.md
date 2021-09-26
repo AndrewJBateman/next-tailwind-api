@@ -61,7 +61,12 @@
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working basic PWA, home page has no content, working news page with list of cards - clicking on a card redirects to news source website - replace with news detail page. Deployed to Vercel
+* Status: Working basic PWA, Deployed to Vercel
+* Status pages:
+* home page has no content but perfect lighthouse score,
+* working news page with list of cards - clicking on a card redirects to news source website - replace with news detail page.
+* data page just has an empty card & perfect Lighthouse scroe - add API data. Add CSP
+* About page perfect Lighthouse score, no content
 * To-Do: Add content to Home page, improve News page, change news detail page, add navbar colors & fix link, add Tailwind styling
 
 ## :clap: Inspiration
