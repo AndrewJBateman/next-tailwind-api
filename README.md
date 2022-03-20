@@ -1,6 +1,7 @@
 # :zap: Next Tailwind API
 
 * A Next/Tailwind SSR Progressive Web App with API news data displayed, deployed to Vercel
+* Barebones app to demonstrate SSR deployment. Needs developing.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/next-tailwind-api?style=plastic)
@@ -40,7 +41,7 @@
 * [Next v11](https://nextjs.org/) minimalist framework for rendering react apps on the server.
 * [Tailwind v2](https://tailwindcss.com/) utility-first CSS framework
 * [PostCSS v8](https://postcss.org/) tool for transforming CSS with JavaScript
-* [Vercel](https://vercel.com)
+* [Vercel](https://vercel.com) for hosting
 
 * [pngTree](https://pngtree.com/) downloadable images, png etc.
 * [pwa-asset-generator v4](https://www.npmjs.com/package/pwa-asset-generator) Automated PWA asset generation and image declaration. Creates icons and JSON array for PWA manifest.json file
@@ -72,7 +73,7 @@
 ## :clap: Inspiration
 
 * [Install Tailwind CSS with Next.js](https://tailwindcss.com/docs/guides/nextjs)
-* [Medium: How to use Next.js <Image> component](https://medium.com/eincode/how-to-use-next-js-image-component-dfbf3725b12)
+* [Medium: How to use Next.js Image component](https://medium.com/eincode/how-to-use-next-js-image-component-dfbf3725b12)
 * [Stackoverflow: Next.JS "Link" vs "router.push()" vs "a" tag](https://stackoverflow.com/questions/65086108/next-js-link-vs-router-push-vs-a-tag)
 * [News API docs](https://newsapi.org/docs)
 * [Convert your website into a PWA in 8 simple steps](https://milindsoorya.site/blog/convert-your-website-into-a-pwa-in-8-simple-steps-next-js-pwa-series-part-2#step-6-edit-your-_documentjs-file)
